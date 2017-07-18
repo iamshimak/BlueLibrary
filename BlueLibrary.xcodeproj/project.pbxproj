@@ -21,6 +21,26 @@
 		C01651781F1C875C00A6D19E /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = C01651771F1C875C00A6D19E /* Album.m */; };
 		C016517B1F1C8DAF00A6D19E /* PersistencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C016517A1F1C8DAF00A6D19E /* PersistencyManager.m */; };
 		C01651811F1CA9D200A6D19E /* HorizontalScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = C01651801F1CA9D200A6D19E /* HorizontalScroller.m */; };
+		C0A00DF91F1DF85A00D5D7B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 450EECCB17A9B03A00957F62 /* main.m */; };
+		C0A00DFA1F1DF85A00D5D7B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 450EECCF17A9B03A00957F62 /* AppDelegate.m */; };
+		C0A00DFB1F1DF85A00D5D7B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 450EECD817A9B03A00957F62 /* ViewController.m */; };
+		C0A00DFC1F1DF85A00D5D7B1 /* PersistencyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C016517A1F1C8DAF00A6D19E /* PersistencyManager.m */; };
+		C0A00DFD1F1DF85A00D5D7B1 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = C01651771F1C875C00A6D19E /* Album.m */; };
+		C0A00DFE1F1DF85A00D5D7B1 /* HorizontalScroller.m in Sources */ = {isa = PBXBuildFile; fileRef = C01651801F1CA9D200A6D19E /* HorizontalScroller.m */; };
+		C0A00DFF1F1DF85A00D5D7B1 /* AddAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D6E4F51F1DC2C600D994AD /* AddAlbumViewController.m */; };
+		C0A00E001F1DF85A00D5D7B1 /* HTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 450EECE417A9B05E00957F62 /* HTTPClient.m */; };
+		C0A00E011F1DF85A00D5D7B1 /* AlbumView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA283CE35C41835173302E5E /* AlbumView.m */; };
+		C0A00E021F1DF85A00D5D7B1 /* LibraryAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = CA283A3BA4BD54FB001E6823 /* LibraryAPI.m */; };
+		C0A00E031F1DF85A00D5D7B1 /* Album+TableRepresentation.m in Sources */ = {isa = PBXBuildFile; fileRef = CA283168266EEC45DC7F4DE3 /* Album+TableRepresentation.m */; };
+		C0A00E051F1DF85A00D5D7B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450EECBF17A9B03A00957F62 /* UIKit.framework */; };
+		C0A00E061F1DF85A00D5D7B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450EECC117A9B03A00957F62 /* Foundation.framework */; };
+		C0A00E071F1DF85A00D5D7B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 450EECC317A9B03A00957F62 /* CoreGraphics.framework */; };
+		C0A00E091F1DF85A00D5D7B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 450EECC817A9B03A00957F62 /* InfoPlist.strings */; };
+		C0A00E0A1F1DF85A00D5D7B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D6E4F21F1DC28900D994AD /* Main.storyboard */; };
+		C0A00E0B1F1DF85A00D5D7B1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 450EECD117A9B03A00957F62 /* Default.png */; };
+		C0A00E0C1F1DF85A00D5D7B1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 450EECD317A9B03A00957F62 /* Default@2x.png */; };
+		C0A00E0D1F1DF85A00D5D7B1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 450EECD517A9B03A00957F62 /* Default-568h@2x.png */; };
+		C0A00E151F1DF99F00D5D7B1 /* AddAlbumTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A00E141F1DF99F00D5D7B1 /* AddAlbumTableViewController.m */; };
 		C0D6E4F31F1DC28900D994AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0D6E4F21F1DC28900D994AD /* Main.storyboard */; };
 		C0D6E4F61F1DC2C600D994AD /* AddAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D6E4F51F1DC2C600D994AD /* AddAlbumViewController.m */; };
 		CA283518E6C09224D785B894 /* LibraryAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = CA283A3BA4BD54FB001E6823 /* LibraryAPI.m */; };
@@ -52,6 +72,10 @@
 		C016517A1F1C8DAF00A6D19E /* PersistencyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PersistencyManager.m; path = ../PersistencyManager.m; sourceTree = "<group>"; };
 		C016517F1F1CA9D200A6D19E /* HorizontalScroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HorizontalScroller.h; path = ../HorizontalScroller.h; sourceTree = "<group>"; };
 		C01651801F1CA9D200A6D19E /* HorizontalScroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HorizontalScroller.m; path = ../HorizontalScroller.m; sourceTree = "<group>"; };
+		C0A00E111F1DF85A00D5D7B1 /* BlueLibrary copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlueLibrary copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0A00E121F1DF85A00D5D7B1 /* BlueLibrary copy3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "BlueLibrary copy3-Info.plist"; path = "/Users/shimak/Documents/BlueLibrary/BlueLibrary copy3-Info.plist"; sourceTree = "<absolute>"; };
+		C0A00E131F1DF99F00D5D7B1 /* AddAlbumTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAlbumTableViewController.h; sourceTree = "<group>"; };
+		C0A00E141F1DF99F00D5D7B1 /* AddAlbumTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAlbumTableViewController.m; sourceTree = "<group>"; };
 		C0D6E4F21F1DC28900D994AD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		C0D6E4F41F1DC2C600D994AD /* AddAlbumViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAlbumViewController.h; sourceTree = "<group>"; };
 		C0D6E4F51F1DC2C600D994AD /* AddAlbumViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAlbumViewController.m; sourceTree = "<group>"; };
@@ -74,15 +98,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C0A00E041F1DF85A00D5D7B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A00E051F1DF85A00D5D7B1 /* UIKit.framework in Frameworks */,
+				C0A00E061F1DF85A00D5D7B1 /* Foundation.framework in Frameworks */,
+				C0A00E071F1DF85A00D5D7B1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		450EECB317A9B03A00957F62 = {
 			isa = PBXGroup;
 			children = (
+				C0A00DD91F1DEC8900D5D7B1 /* Resources-iPad */,
 				450EECC517A9B03A00957F62 /* BlueLibrary */,
 				450EECBE17A9B03A00957F62 /* Frameworks */,
 				450EECBD17A9B03A00957F62 /* Products */,
+				C0A00E121F1DF85A00D5D7B1 /* BlueLibrary copy3-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				450EECBC17A9B03A00957F62 /* BlueLibrary.app */,
+				C0A00E111F1DF85A00D5D7B1 /* BlueLibrary copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,6 +153,8 @@
 				450EECD817A9B03A00957F62 /* ViewController.m */,
 				C01651761F1C875C00A6D19E /* Album.h */,
 				C01651771F1C875C00A6D19E /* Album.m */,
+				C0A00E131F1DF99F00D5D7B1 /* AddAlbumTableViewController.h */,
+				C0A00E141F1DF99F00D5D7B1 /* AddAlbumTableViewController.m */,
 				450EECCE17A9B03A00957F62 /* AppDelegate.h */,
 				450EECCF17A9B03A00957F62 /* AppDelegate.m */,
 				450EECC617A9B03A00957F62 /* Supporting Files */,
@@ -155,6 +194,13 @@
 			name = API;
 			sourceTree = "<group>";
 		};
+		C0A00DD91F1DEC8900D5D7B1 /* Resources-iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Resources-iPad";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -173,6 +219,23 @@
 			name = BlueLibrary;
 			productName = BlueLibrary;
 			productReference = 450EECBC17A9B03A00957F62 /* BlueLibrary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0A00DF71F1DF85A00D5D7B1 /* BlueLibrary copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0A00E0E1F1DF85A00D5D7B1 /* Build configuration list for PBXNativeTarget "BlueLibrary copy" */;
+			buildPhases = (
+				C0A00DF81F1DF85A00D5D7B1 /* Sources */,
+				C0A00E041F1DF85A00D5D7B1 /* Frameworks */,
+				C0A00E081F1DF85A00D5D7B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BlueLibrary copy";
+			productName = BlueLibrary;
+			productReference = C0A00E111F1DF85A00D5D7B1 /* BlueLibrary copy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -197,6 +260,7 @@
 			projectRoot = "";
 			targets = (
 				450EECBB17A9B03A00957F62 /* BlueLibrary */,
+				C0A00DF71F1DF85A00D5D7B1 /* BlueLibrary copy */,
 			);
 		};
 /* End PBXProject section */
@@ -214,6 +278,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C0A00E081F1DF85A00D5D7B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A00E091F1DF85A00D5D7B1 /* InfoPlist.strings in Resources */,
+				C0A00E0A1F1DF85A00D5D7B1 /* Main.storyboard in Resources */,
+				C0A00E0B1F1DF85A00D5D7B1 /* Default.png in Resources */,
+				C0A00E0C1F1DF85A00D5D7B1 /* Default@2x.png in Resources */,
+				C0A00E0D1F1DF85A00D5D7B1 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -224,6 +300,7 @@
 				450EECCC17A9B03A00957F62 /* main.m in Sources */,
 				450EECD017A9B03A00957F62 /* AppDelegate.m in Sources */,
 				450EECD917A9B03A00957F62 /* ViewController.m in Sources */,
+				C0A00E151F1DF99F00D5D7B1 /* AddAlbumTableViewController.m in Sources */,
 				C016517B1F1C8DAF00A6D19E /* PersistencyManager.m in Sources */,
 				C01651781F1C875C00A6D19E /* Album.m in Sources */,
 				C01651811F1CA9D200A6D19E /* HorizontalScroller.m in Sources */,
@@ -232,6 +309,24 @@
 				CA283E07845512AE86E17B43 /* AlbumView.m in Sources */,
 				CA283518E6C09224D785B894 /* LibraryAPI.m in Sources */,
 				CA283BBCE50169DABF127277 /* Album+TableRepresentation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A00DF81F1DF85A00D5D7B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A00DF91F1DF85A00D5D7B1 /* main.m in Sources */,
+				C0A00DFA1F1DF85A00D5D7B1 /* AppDelegate.m in Sources */,
+				C0A00DFB1F1DF85A00D5D7B1 /* ViewController.m in Sources */,
+				C0A00DFC1F1DF85A00D5D7B1 /* PersistencyManager.m in Sources */,
+				C0A00DFD1F1DF85A00D5D7B1 /* Album.m in Sources */,
+				C0A00DFE1F1DF85A00D5D7B1 /* HorizontalScroller.m in Sources */,
+				C0A00DFF1F1DF85A00D5D7B1 /* AddAlbumViewController.m in Sources */,
+				C0A00E001F1DF85A00D5D7B1 /* HTTPClient.m in Sources */,
+				C0A00E011F1DF85A00D5D7B1 /* AlbumView.m in Sources */,
+				C0A00E021F1DF85A00D5D7B1 /* LibraryAPI.m in Sources */,
+				C0A00E031F1DF85A00D5D7B1 /* Album+TableRepresentation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +422,28 @@
 			};
 			name = Release;
 		};
+		C0A00E0F1F1DF85A00D5D7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlueLibrary/BlueLibrary-Prefix.pch";
+				INFOPLIST_FILE = "BlueLibrary copy3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C0A00E101F1DF85A00D5D7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlueLibrary/BlueLibrary-Prefix.pch";
+				INFOPLIST_FILE = "BlueLibrary copy3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -344,6 +461,15 @@
 			buildConfigurations = (
 				450EECE017A9B03A00957F62 /* Debug */,
 				450EECE117A9B03A00957F62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0A00E0E1F1DF85A00D5D7B1 /* Build configuration list for PBXNativeTarget "BlueLibrary copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0A00E0F1F1DF85A00D5D7B1 /* Debug */,
+				C0A00E101F1DF85A00D5D7B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

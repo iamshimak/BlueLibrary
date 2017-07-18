@@ -1,5 +1,5 @@
 //
-//  AddAlbumViewController.h
+//  AddAlbumTableViewController.h
 //  BlueLibrary
 //
 //  Created by Ahamed Shimak on 7/18/17.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AddAlbumViewController : UIViewController
+@interface AddAlbumTableViewController : UITableViewController <UITableViewDelegate, UITableViewDataSource>
 
 @end

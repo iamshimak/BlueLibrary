@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "HorizontalScroller.h"
 #import "AlbumView.h"
+#import "AddAlbumViewController.h"
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate, HorizontalScrollerDelegate> {
     UITableView *dataTable;
@@ -40,8 +41,9 @@
 }
 
 - (void)addButtonPressed:(id)addButtonPressed {
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle: nil];
-    UIViewController *lvc = [storyboard instantiateViewControllerWithIdentifier:@"LocationWebView"];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    AddAlbumViewController *addAlbum = [storyboard instantiateViewControllerWithIdentifier:@"addAlbum"];
+    [self presentViewController:addAlbum animated:YES completion:nil];
 }
 
 - (void)viewDidLoad {
