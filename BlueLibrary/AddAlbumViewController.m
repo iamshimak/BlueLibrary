@@ -46,6 +46,11 @@
     _navBar.topItem.leftBarButtonItem = backButton;
 }
 
+- (void)Back {
+    ViewController *view = [ViewController new];
+    [self presentViewController:view animated:YES completion:nil];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     url = (UITextField *) [_addAlbumForm viewWithTag:5];

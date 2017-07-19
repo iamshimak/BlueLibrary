@@ -79,7 +79,7 @@
 
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(saveCurrentState) name:UIApplicationDidEnterBackgroundNotification object:nil];
 
-    UIButton *deleteBtn = [[UIButton alloc] initWithFrame:(CGRectMake(0, 480, self.view.frame.size.width, 40))];
+    UIButton *deleteBtn = [[UIButton alloc] initWithFrame:(CGRectMake(0, self.view.frame.size.height - 50, self.view.frame.size.width, 50))];
     [deleteBtn setTitle:@"Remove" forState:UIControlStateNormal];
     //[deleteBtn setTitleColor:[UIColor colorWithRed:36 / 255.0 green:71 / 255.0 blue:113 / 255.0 alpha:1.0] forState:UIControlStateNormal];
     [deleteBtn setBackgroundColor:[UIColor colorWithRed:36 / 255.0 green:71 / 255.0 blue:113 / 255.0 alpha:1.0]];
@@ -88,7 +88,9 @@
 }
 
 - (void)removeAlbum {
-
+    [[LibraryAPI sharedInstance] deleteAlbumAtIndex:currentAlbumIndex];
+    [dataTable reloadData];
+     [self reloadScroller];
 }
 
 - (void)didReceiveMemoryWarning {
