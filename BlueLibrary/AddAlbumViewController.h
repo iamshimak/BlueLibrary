@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface AddAlbumViewController : UIViewController
-
+@property (weak, nonatomic) IBOutlet UIView *addAlbumForm;
 @end

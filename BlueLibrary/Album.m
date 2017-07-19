@@ -40,6 +40,18 @@
     }
     return self;
 }
+
+- (NSString *)description {
+    NSMutableString *description = [NSMutableString stringWithFormat:@"<%@: ", NSStringFromClass([self class])];
+    [description appendFormat:@"self.title=%@", self.title];
+    [description appendFormat:@", self.artist=%@", self.artist];
+    [description appendFormat:@", self.genre=%@", self.genre];
+    [description appendFormat:@", self.coverUrl=%@", self.coverUrl];
+    [description appendFormat:@", self.year=%@", self.year];
+    [description appendString:@">"];
+    return description;
+}
+
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
