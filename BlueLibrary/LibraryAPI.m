@@ -48,6 +48,13 @@
     }
 }
 
+- (void)addAlbumAtLast:(Album *)album {
+    [persistencyManager addAlbumAtLast:album];
+    if (isOnline) {
+        [httpClient postRequest:@"/api/addAlbum" body:[album description]];
+    }
+}
+
 - (void)deleteAlbumAtIndex:(int)index {
     [persistencyManager deleteAlbumAtIndex:index];
     if (isOnline) {

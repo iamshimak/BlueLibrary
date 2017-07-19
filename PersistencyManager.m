@@ -46,6 +46,10 @@
         [albums addObject:album];
 }
 
+- (void)addAlbumAtLast:(Album *)album {
+    [albums addObject:album];
+}
+
 - (void)deleteAlbumAtIndex:(int)index {
     [albums removeObjectAtIndex:index];
 }

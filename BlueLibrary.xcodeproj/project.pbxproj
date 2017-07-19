@@ -246,6 +246,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Eli Ganem";
+				TargetAttributes = {
+					C0A00DF71F1DF85A00D5D7B1 = {
+						DevelopmentTeam = FEH594Z8Q5;
+					};
+				};
 			};
 			buildConfigurationList = 450EECB717A9B03A00957F62 /* Build configuration list for PBXProject "BlueLibrary" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -425,6 +430,7 @@
 		C0A00E0F1F1DF85A00D5D7B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = FEH594Z8Q5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlueLibrary/BlueLibrary-Prefix.pch";
 				INFOPLIST_FILE = "BlueLibrary copy3-Info.plist";
@@ -436,6 +442,7 @@
 		C0A00E101F1DF85A00D5D7B1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = FEH594Z8Q5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlueLibrary/BlueLibrary-Prefix.pch";
 				INFOPLIST_FILE = "BlueLibrary copy3-Info.plist";

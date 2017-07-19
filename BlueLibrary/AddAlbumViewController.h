@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AddAlbumViewController : UIViewController
+@interface AddAlbumViewController : UIViewController <UITextFieldDelegate>
+@property (strong, nonatomic) IBOutlet UITapGestureRecognizer *tapper;
 @property (weak, nonatomic) IBOutlet UIView *addAlbumForm;
 @end

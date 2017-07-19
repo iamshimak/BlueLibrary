@@ -10,6 +10,7 @@
 + (LibraryAPI *)sharedInstance;
 - (NSArray*)getAlbums;
 - (void)addAlbum:(Album*)album atIndex:(int)index;
+- (void)addAlbumAtLast:(Album*)album;
 - (void)deleteAlbumAtIndex:(int)index;
 - (void)saveAlbums;
 @end
