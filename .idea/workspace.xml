@@ -4,8 +4,8 @@
     <list default="true" id="76c56d2c-b070-4585-a8d0-459c0e892704" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BlueLibrary.xcodeproj/project.xcworkspace/xcuserdata/shimak.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/BlueLibrary.xcodeproj/project.xcworkspace/xcuserdata/shimak.xcuserdatad/UserInterfaceState.xcuserstate" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BlueLibrary.xcodeproj/xcuserdata/shimak.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterPath="$PROJECT_DIR$/BlueLibrary.xcodeproj/xcuserdata/shimak.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BlueLibrary/AddAlbumViewController.m" afterPath="$PROJECT_DIR$/BlueLibrary/AddAlbumViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BlueLibrary/ViewController.m" afterPath="$PROJECT_DIR$/BlueLibrary/ViewController.m" />
     </list>
     <list id="6cb9dc28-ace7-430e-9102-81d44c15631c" name="Revert: AddAlbum" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +21,8 @@
       <file leaf-file-name="AddAlbumViewController.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BlueLibrary/AddAlbumViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="32" column="76" lean-forward="true" selection-start-line="32" selection-start-column="76" selection-end-line="32" selection-end-column="76" />
+            <state relative-caret-position="525">
+              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="e#149#183#0" expanded="true" />
               </folding>
@@ -33,7 +33,7 @@
       <file leaf-file-name="LibraryAPI.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BlueLibrary/LibraryAPI.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
+            <state relative-caret-position="870">
               <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
               <folding />
             </state>
@@ -63,8 +63,8 @@
       <file leaf-file-name="ViewController.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BlueLibrary/ViewController.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="45" column="70" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="45" selection-end-column="70" />
+            <state relative-caret-position="675">
+              <caret line="45" column="70" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="45" selection-end-column="70" />
               <folding>
                 <element signature="e#139#165#0" expanded="true" />
               </folding>
@@ -75,8 +75,8 @@
       <file leaf-file-name="PersistencyManager.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PersistencyManager.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state relative-caret-position="89">
+              <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -150,8 +150,8 @@
         <option value="$PROJECT_DIR$/BlueLibrary/LibraryAPI.h" />
         <option value="$PROJECT_DIR$/PersistencyManager.h" />
         <option value="$PROJECT_DIR$/BlueLibrary/LibraryAPI.m" />
-        <option value="$PROJECT_DIR$/PersistencyManager.m" />
         <option value="$PROJECT_DIR$/BlueLibrary/ViewController.m" />
+        <option value="$PROJECT_DIR$/PersistencyManager.m" />
         <option value="$PROJECT_DIR$/BlueLibrary/AddAlbumViewController.m" />
       </list>
     </option>
@@ -219,6 +219,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="SearchEverywhereHistoryKey" value="add&#9;FILE&#9;file:///Users/shimak/Documents/BlueLibrary/BlueLibrary/AddAlbumTableViewController.h&#10;tab&#9;FILE&#9;file:///Users/shimak/Documents/BlueLibrary/BlueLibrary/Album+TableRepresentation.m&#10;Liba&#9;FILE&#9;file:///Users/shimak/Documents/BlueLibrary/BlueLibrary/LibraryAPI.m&#10;al&#9;FILE&#9;file:///Users/shimak/Documents/BlueLibrary/BlueLibrary/Album.m" />
     <property name="OBJC.PRESERVED_TARGET_SELECTION" value="BlueLibrary" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -329,12 +330,22 @@
       <workItem from="1500454282710" duration="1452000" />
       <workItem from="1500456921899" duration="2066000" />
       <workItem from="1500459088403" duration="4742000" />
-      <workItem from="1500467053224" duration="1083000" />
+      <workItem from="1500467053224" duration="2285000" />
+      <workItem from="1500521276752" duration="308000" />
+      <workItem from="1500523868429" duration="1526000" />
     </task>
+    <task id="LOCAL-00001" summary="'Remove Button'">
+      <created>1500468166735</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1500468166735</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39035000" />
+    <option name="totallyTimeSpent" value="42071000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -351,16 +362,16 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25065824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992035" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38709676" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39822024" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39822024" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814237" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -417,7 +428,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="'Remove Button'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'Remove Button'" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -682,7 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="29" lean-forward="false" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -725,7 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
           <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,6 +781,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BlueLibrary/LibraryAPI.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BlueLibrary/ViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="70" lean-forward="false" selection-start-line="43" selection-start-column="4" selection-end-line="45" selection-end-column="70" />
+          <folding>
+            <element signature="e#139#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BlueLibrary/AddAlbumTableViewController.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -779,36 +807,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BlueLibrary/LibraryAPI.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PersistencyManager.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="89">
+          <caret line="22" column="8" lean-forward="false" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BlueLibrary/ViewController.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="45" column="70" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="45" selection-end-column="70" />
-          <folding>
-            <element signature="e#139#165#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BlueLibrary/AddAlbumViewController.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="32" column="76" lean-forward="true" selection-start-line="32" selection-start-column="76" selection-end-line="32" selection-end-column="76" />
+        <state relative-caret-position="525">
+          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="e#149#183#0" expanded="true" />
           </folding>
